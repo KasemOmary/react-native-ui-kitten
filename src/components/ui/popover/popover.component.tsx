@@ -115,7 +115,7 @@ export class Popover extends React.Component<PopoverProps, State> {
     childFrame: Frame.zero(),
     forceMeasure: false,
     actualPlacement: this.preferredPlacement,
-    contentPosition: Point.zero(),
+    contentPosition: Point.outscreen(),
   };
 
   private placementService: PopoverPlacementService = new PopoverPlacementService();
